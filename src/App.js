@@ -143,7 +143,7 @@ function App() {
         </div>
       </div>
       <div className="content-icant-help-you">
-        <Row>
+        <Row style={{ paddingTop: 30 }}>
           <Col md={7} />
           <Col md={10}>
             <div className="content-icant-text">
@@ -153,7 +153,7 @@ function App() {
           </Col>
           <Col md={7} />
         </Row>
-        <Row>
+        <Row style={{ marginTop: 30 }}>
           <ContentComment data={content} />
         </Row>
       </div>
