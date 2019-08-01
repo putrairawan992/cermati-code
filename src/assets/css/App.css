@@ -1,0 +1,217 @@
+.App {
+  background-color: #007bc1;
+}
+
+footer {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  text-align: center;
+  transition: 200ms;
+  background-color: #182848;
+  color: #ffffff;
+}
+
+footer:hover {
+  box-shadow: 0 0 2rem gray;
+}
+
+
+@media screen and (min-width : 900px) {
+  .alert-notif .ant-alert-close-icon {
+    position: unset !important;
+  }
+
+  .email-address .ant-input-group .ant-input {
+    width: 313px !important;
+    height: 29px !important;
+  }
+
+  .alert-notif .ant-alert-message {
+    max-width: 40%;
+  }
+
+  .alert-notif .ant-alert.ant-alert-closable {
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.ant-notification {
+  width: 495px !important;
+}
+
+
+}
+
+@media screen and (max-width : 899px) {
+
+  .email-address .ant-input-group .ant-input {
+    width: 243px !important;
+    height: 29px !important;
+}
+
+  .alert-notif .ant-alert-close-icon {
+    position: unset !important;
+    margin-top: 10px;
+  }
+
+  .alert-notif .ant-alert.ant-alert-closable {
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .alert-notif .ant-alert-message {
+    max-width: unset;
+  }
+
+  .ant-notification {
+    max-width: unset !important;
+    width: 100% !important
+  }
+
+}
+
+.alert-notif {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.alert-notif__button {
+  background-color: #007bc1 !important;
+  color: #ffffff !important;
+}
+
+.alert-notif .ant-alert-success {
+  background-color: #e5e5e5 !important;
+  border: 1px solid #e5e5e5 !important;
+}
+
+.email-address .ant-input-group-addon {
+  background-color: unset !important
+}
+
+.email-address .ant-btn-primary {
+  background-color: #cc6600 !important;
+  border-color: #cc6600 !important;
+  height: 29px;
+  margin-left: 10px;
+}
+
+.ant-notification-topLeft,
+.ant-notification-bottomLeft {
+  margin-left: 0px !important;
+  bottom: -14px !important;
+}
+
+.ant-notification-close-icon {
+  font-size: 10px !important
+}
+
+.ant-notification-notice-close {
+  top: 9px !important;
+  right: 15px !important;
+  color: white !important;
+}
+
+.ant-notification-notice-message {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.ant-notification-notice-description {
+  color: #ffffff !important;
+}
+
+.ant-notification-notice {
+  background-color: #007bc1 !important;
+  opacity: 0.9;
+}
+
+.ant-notification-notice-btn {
+  float: unset !important;
+}
+
+.bg-image {
+  background-image: url("../img/work-desk__dustin-lee.jpg");
+  height: 700px;
+  opacity: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-icon{
+background-image: url('../img/y-logo-white.png');
+height: 50px;
+background-size: contain;
+background-repeat: no-repeat;
+left: 0;
+transform: translate(-10%, 0%);
+position: absolute;
+top: 0;
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-text h5 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.bg-text b {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.content__button {
+  height: 40px !important;
+  background-color: unset !important;
+  border-color: #ffffff;
+  color: #ffffff !important;
+  font-weight: 550;
+}
+
+.content__button:hover {
+  background-color: #e5e5e5 !important;
+  color: #007bc1 !important;
+  font-weight: 550;
+  border-color: unset !important;
+  border: unset !important;
+}
+
+.content-icant-help-you {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+
+.content-icant-text {
+  text-align: center;
+}
+
+.content-icant-text h5 {
+  font-size: 30px;
+}
+
+.content-icant-text span {
+  font-size: 16px;
+}
