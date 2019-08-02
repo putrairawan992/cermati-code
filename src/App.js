@@ -132,7 +132,9 @@ function App() {
             style={styleAlertImage} alt="" /> :
           <img src={require("./assets/img/y-logo-white.png")} style={{
             height: 50,
-            margin: "10px 0px 0px 10px"
+            margin: "10px 0px 0px 10px",
+            position: "absolute",
+            top: 0
           }} alt="" />
         }
         <div className="bg-text">
