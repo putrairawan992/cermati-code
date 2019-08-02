@@ -38,10 +38,18 @@ footer:hover {
     align-items: center;
   }
 
+  .sty-alert-image {
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    transform: translate(14px, 91px);
+  }
 
-.ant-notification {
-  width: 495px !important;
-}
+
+  .ant-notification {
+    width: 495px !important;
+  }
 
 
 }
@@ -51,7 +59,7 @@ footer:hover {
   .email-address .ant-input-group .ant-input {
     width: 243px !important;
     height: 29px !important;
-}
+  }
 
   .alert-notif .ant-alert-close-icon {
     position: unset !important;
@@ -72,6 +80,14 @@ footer:hover {
   .ant-notification {
     max-width: unset !important;
     width: 100% !important
+  }
+
+  .sty-alert-image {
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    transform: translate(14px, 132px);
   }
 
 }
@@ -147,15 +163,15 @@ footer:hover {
   background-size: cover;
 }
 
-.bg-icon{
-background-image: url('../img/y-logo-white.png');
-height: 50px;
-background-size: contain;
-background-repeat: no-repeat;
-left: 0;
-transform: translate(-10%, 0%);
-position: absolute;
-top: 0;
+.bg-icon {
+  background-image: url('../img/y-logo-white.png');
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 0;
+  transform: translate(-10%, 0%);
+  position: absolute;
+  top: 0;
 }
 
 .bg-text {

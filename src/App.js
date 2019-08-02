@@ -101,13 +101,7 @@ function App() {
     }
   ]
 
-  const styleAlertImage = {
-    height: 50,
-    position: "absolute",
-    top: "9%",
-    left: "13px",
-    transform: "translate(14px, 38px)"
-  }
+
 
   const notification_panel = strings.formatString(
     strings.notification_panel,
@@ -129,7 +123,7 @@ function App() {
         <div className="bg-image" />
         {visible === true ?
           <img src={require("./assets/img/y-logo-white.png")}
-            style={styleAlertImage} alt="" /> :
+            className="sty-alert-image" alt="" /> :
           <img src={require("./assets/img/y-logo-white.png")} style={{
             height: 50,
             margin: "10px 0px 0px 10px",
